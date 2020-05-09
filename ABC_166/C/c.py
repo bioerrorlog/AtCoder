@@ -1,6 +1,7 @@
 import sys
+input = sys.stdin.readline
+
 def main():
-    input = sys.stdin.readline
     n, m = map(int, input().split())
     h = list(map(int, input().split()))
     l_n = [True] * n
